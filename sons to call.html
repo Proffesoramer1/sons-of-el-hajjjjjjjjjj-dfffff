@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="siuuu.css">
+    <link rel="icon" href="i.jpg">
+    <title>صفحة التواصل</title>
+
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <button class="toggle-btn" id="toggle-btn">&#9776;</button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about company.html">عن الشركة</a></li>
+            <li><a href="#service">الخدمات</a></li>
+            <li><a href="sons to call.html">اتصل </a></li>
+            <li><a href="SHOP.html">منتج</a></li>
+            <br>
+<li><a href="english.html">English</a></li>
+      </nav>
+      <script>
+        document.getElementById('toggle-btn').addEventListener('click', function () {
+  const navLinks = document.getElementById('nav-links');
+  navLinks.classList.toggle('active');
+});
+
+      </script>
+      <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+      </style>
+    
+    <section id="contact">
+        <form>
+              <!-- قسم اتصل بنا -->
+        <section id="contact">
+            <h2 style="font-family: sans-serif; font-size: 30px;" align="center">تواصل معنا</h2>
+            <form>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f9;
+                    }
+                    .contact-container {
+                        max-width: 600px;
+                        margin: 50px auto;
+                        background: #fff;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        text-align: center;
+                    }
+                    .contact-container h1 {
+                        color: #333;
+                    }
+                    .contact-container p {
+                        font-size: 18px;
+                        color: #666;
+                        line-height: 1.6;
+                    }
+                    .contact-container a {
+                        font-size: 18px;
+                        color: #007bff;
+                        text-decoration: none;
+                    }
+                    .contact-container a:hover {
+                        text-decoration: underline;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="contact-container">
+                    <h1 style="font-family: sans-serif;">تواصل معنا</h1>
+
+                    <br>
+                    <h1 style="background-color: burlywood; border-radius: 10px; font-family: sans-serif; color: rgb(250, 244, 244);">ملحوظة: لتستطيع الشراء من الموقع يرجي أخذ لقطة شاشة للمنتج وإتصال علي الرقم التالي:01021979903</h1>
+
+                    <br>
+                    <br>
+                    <h2 style="font-family: sans-serif;">صور رمز الاستجابة وتواصل فورا</h2>
+                    <img src="qr code.jpg" alt="" style="width: 250px;">
+                    <br>
+                    <p>لأي استفسار، يمكنك التواصل مع صاحب الموقع عبر الرقم التالي:</p>
+                    <p>01021979903</p>
+                    <br>
+                          
+                   
+                </div>
+            </form>
+        </section>
+</main>
+
+<!-- تذييل الموقع -->
+<footer style="background-color: teal; height: 150px;">
+    <div class="container">
+        <h1>© 2024 جميع الحقوق محفوظة.</h1>
+        <h2 style="font-family: sans-serif;" align="right" title="Google Map موقعنا علي" >
+            <a  href="https://www.google.com/maps/place//@31.1062298,30.9330627,18z/data=!4m6!1m5!3m4!2zMzHCsDA2JzIxLjIiTiAzMMKwNTUnNTMuMiJF!8m2!3d31.1058807!4d30.931448?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" 
+        style="font-size: 30px; color: azure; text-decoration: none;; font-family: sans-serif;" >يمكنك زيارتنا علي موقعنا</a></h2>
+        
+    </div>
+</footer>
+</body>
+</html>
